@@ -7,6 +7,10 @@ import styled from "styled-components";
 import ViewSelect from "./Components/ViewSelect";
 import GetFieldMetaListButton from "./Components/GetFieldMetaListButton";
 import FieldSelect from "./Components/FieldSelect";
+import QueryRecordsButton from "./Components/QueryRecordsButton";
+import RecordsInfoNotification from "./Components/RecordsInfoNotification";
+import IntoDBMethodSelect from "./Components/IntoDBMethodSelect";
+import AllInButton from "./Components/AllInButton";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
@@ -42,6 +46,10 @@ function LoadApp() {
       <ViewSelect />
       <GetFieldMetaListButton />
       <FieldSelect />
+      <QueryRecordsButton />
+      <RecordsInfoNotification />
+      <IntoDBMethodSelect />
+      <AllInButton/>
     </Container>
   );
 }

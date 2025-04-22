@@ -46,7 +46,7 @@ const GetFieldMetaListButton = () => {
         tempMap[meta.name] = meta;
     })
 
-    const fieldId = tempMap["start_time"].id;
+    const fieldId = tempMap["my_own_thing"].id;
     const field = await table.getField(fieldId);
     if(recordList[0]){
         const cell = await field.getCellString(recordList[0]);
